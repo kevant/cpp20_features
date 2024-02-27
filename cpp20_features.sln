@@ -10,7 +10,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ranges_example", "ranges_example\ranges_example.vcxproj", "{54AA3B00-BEAC-41FC-A078-D77D0A24421A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Concepts", "concepts\Concepts.vcxproj", "{88AEC0BB-256E-48DB-921C-57FB947561AA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "concepts", "concepts\Concepts.vcxproj", "{88AEC0BB-256E-48DB-921C-57FB947561AA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "span", "span\span.vcxproj", "{2A996AB7-61E8-4BEE-B233-34D41A55285F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Modules", "modules\Modules.vcxproj", "{D4662527-A753-42D0-8B1B-4DB9058C9F5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModuleConsumer_Reference", "moduleConsumer_Reference\ModuleConsumer_Reference.vcxproj", "{E3D61812-755B-498A-8A35-E4CC25C058E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModuleConsumer_FromDisk", "moduleConsumer_FromDisk\ModuleConsumer_FromDisk.vcxproj", "{5D6828A4-F619-49D4-966E-E7041D028A7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +34,22 @@ Global
 		{88AEC0BB-256E-48DB-921C-57FB947561AA}.Debug|x64.Build.0 = Debug|x64
 		{88AEC0BB-256E-48DB-921C-57FB947561AA}.Release|x64.ActiveCfg = Release|x64
 		{88AEC0BB-256E-48DB-921C-57FB947561AA}.Release|x64.Build.0 = Release|x64
+		{2A996AB7-61E8-4BEE-B233-34D41A55285F}.Debug|x64.ActiveCfg = Debug|x64
+		{2A996AB7-61E8-4BEE-B233-34D41A55285F}.Debug|x64.Build.0 = Debug|x64
+		{2A996AB7-61E8-4BEE-B233-34D41A55285F}.Release|x64.ActiveCfg = Release|x64
+		{2A996AB7-61E8-4BEE-B233-34D41A55285F}.Release|x64.Build.0 = Release|x64
+		{D4662527-A753-42D0-8B1B-4DB9058C9F5D}.Debug|x64.ActiveCfg = Debug|x64
+		{D4662527-A753-42D0-8B1B-4DB9058C9F5D}.Debug|x64.Build.0 = Debug|x64
+		{D4662527-A753-42D0-8B1B-4DB9058C9F5D}.Release|x64.ActiveCfg = Release|x64
+		{D4662527-A753-42D0-8B1B-4DB9058C9F5D}.Release|x64.Build.0 = Release|x64
+		{E3D61812-755B-498A-8A35-E4CC25C058E1}.Debug|x64.ActiveCfg = Debug|x64
+		{E3D61812-755B-498A-8A35-E4CC25C058E1}.Debug|x64.Build.0 = Debug|x64
+		{E3D61812-755B-498A-8A35-E4CC25C058E1}.Release|x64.ActiveCfg = Release|x64
+		{E3D61812-755B-498A-8A35-E4CC25C058E1}.Release|x64.Build.0 = Release|x64
+		{5D6828A4-F619-49D4-966E-E7041D028A7B}.Debug|x64.ActiveCfg = Debug|x64
+		{5D6828A4-F619-49D4-966E-E7041D028A7B}.Debug|x64.Build.0 = Debug|x64
+		{5D6828A4-F619-49D4-966E-E7041D028A7B}.Release|x64.ActiveCfg = Release|x64
+		{5D6828A4-F619-49D4-966E-E7041D028A7B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
